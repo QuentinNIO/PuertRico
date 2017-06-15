@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/puertoricoplateau"
+    android:allowBackup="true"
+    android:hardwareAccelerated="false"
+    tools:context="com.example.cronos.puerto.MainActivity">
+    <TextView
+        android:text=""
+        android:id="@+id/Title"
+        android:layout_height="20dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatA1"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Title" />
+
+    <TextView
+    android:text="##"
+    android:id="@+id/BatA2"
+    android:layout_height="28dp"
+    android:textSize="16sp"
+    android:textAlignment="center"
+    android:textStyle="normal|bold"
+    android:textColor="#a09718"
+    android:layout_width="110dp"
+    android:layout_below="@+id/BatA1"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatA3"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatA2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatA4"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatA3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatA5"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatA4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatA6"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatA5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/BatA7"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatA6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB1"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Title"
+        android:layout_alignBaseline="@+id/BatA1"
+        android:layout_alignBottom="@+id/BatA1"
+        android:layout_toRightOf="@+id/BatA1"
+        android:layout_toEndOf="@+id/BatA1" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB2"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB1"
+        android:layout_alignBaseline="@+id/BatA2"
+        android:layout_alignBottom="@+id/BatA2"
+        android:layout_toRightOf="@+id/BatA2"
+        android:layout_toEndOf="@+id/BatA2" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB3"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB2"
+        android:layout_alignBaseline="@+id/BatA3"
+        android:layout_alignBottom="@+id/BatA3"
+        android:layout_toRightOf="@+id/BatA3"
+        android:layout_toEndOf="@+id/BatA3" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB4"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB3"
+        android:layout_alignBaseline="@+id/BatA4"
+        android:layout_alignBottom="@+id/BatA4"
+        android:layout_toRightOf="@+id/BatA4"
+        android:layout_toEndOf="@+id/BatA4"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB5"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB4"
+        android:layout_alignBaseline="@+id/BatA5"
+        android:layout_alignBottom="@+id/BatA5"
+        android:layout_toRightOf="@+id/BatA5"
+        android:layout_toEndOf="@+id/BatA5"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB6"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB5"
+        android:layout_alignBaseline="@+id/BatA6"
+        android:layout_alignBottom="@+id/BatA6"
+        android:layout_toRightOf="@+id/BatA6"
+        android:layout_toEndOf="@+id/BatA6" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatB7"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB6"
+        android:layout_alignBaseline="@+id/BatA7"
+        android:layout_alignBottom="@+id/BatA7"
+        android:layout_toRightOf="@+id/BatA7"
+        android:layout_toEndOf="@+id/BatA7" />
+
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatC1"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Title"
+        android:layout_alignBaseline="@+id/BatB1"
+        android:layout_alignBottom="@+id/BatB1"
+        android:layout_toRightOf="@+id/BatB1"
+        android:layout_toEndOf="@+id/BatB1" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatC2"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatC1"
+        android:layout_alignBaseline="@+id/BatB2"
+        android:layout_alignBottom="@+id/BatB2"
+        android:layout_toRightOf="@+id/BatB2"
+        android:layout_toEndOf="@+id/BatB2" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatC3"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatC2"
+        android:layout_alignBaseline="@+id/BatB3"
+        android:layout_alignBottom="@+id/BatB3"
+        android:layout_toRightOf="@+id/BatB3"
+        android:layout_toEndOf="@+id/BatB3" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatC4"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatC3"
+        android:layout_alignBaseline="@+id/BatB4"
+        android:layout_alignBottom="@+id/BatB4"
+        android:layout_toRightOf="@+id/BatB4"
+        android:layout_toEndOf="@+id/BatB4" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatC5"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatC4"
+        android:layout_alignBaseline="@+id/BatB5"
+        android:layout_alignBottom="@+id/BatB5"
+        android:layout_toRightOf="@+id/BatB5"
+        android:layout_toEndOf="@+id/BatB5" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/BatC6"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatC5"
+        android:layout_alignBaseline="@+id/BatB6"
+        android:layout_alignBottom="@+id/BatB6"
+        android:layout_toRightOf="@+id/BatB6"
+        android:layout_toEndOf="@+id/BatB6" />
+
+
+    <TextView
+        android:text=""
+        android:id="@+id/Espace"
+        android:layout_height="10dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/BatB7" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/GrBatA1"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Espace" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/GrBatA2"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/GrBatA1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="##"
+        android:id="@+id/GrBatB1"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Espace"
+        android:layout_alignBaseline="@+id/GrBatA1"
+        android:layout_alignBottom="@+id/GrBatA1"
+        android:layout_toRightOf="@+id/GrBatA1"
+        android:layout_toEndOf="@+id/GrBatA1" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/GrBatB2"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/GrBatB1"
+        android:layout_alignBaseline="@+id/GrBatA2"
+        android:layout_alignBottom="@+id/GrBatA2"
+        android:layout_toRightOf="@+id/GrBatA2"
+        android:layout_toEndOf="@+id/GrBatA2" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/GrBatC1"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Espace"
+        android:layout_alignBaseline="@+id/GrBatB1"
+        android:layout_alignBottom="@+id/GrBatB1"
+        android:layout_toRightOf="@+id/GrBatB1"
+        android:layout_toEndOf="@+id/GrBatB1" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/GrBatC2"
+        android:layout_height="28dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/GrBatC1"
+        android:layout_alignBaseline="@+id/GrBatB2"
+        android:layout_alignBottom="@+id/GrBatB2"
+        android:layout_toRightOf="@+id/GrBatB2"
+        android:layout_toEndOf="@+id/GrBatB2" />
+
+    <Button
+        android:text="Start"
+        android:layout_below="@+id/GrBatB2"
+        android:layout_height="40dp"
+        android:layout_width="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:id="@+id/button1"
+        android:onClick="Test" />
+
+    <TextView
+        android:text="##"
+        android:id="@+id/NumPlayer1"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/button1" />
+
+    <EditText
+        android:text="Player1"
+        android:id="@+id/Player1"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/button"
+        android:layout_alignBaseline="@+id/NumPlayer1"
+        android:layout_alignBottom="@+id/NumPlayer1"
+        android:layout_toRightOf="@+id/NumPlayer1"
+        android:layout_toEndOf="@+id/NumPlayer1"/>
+
+    <TextView
+        android:text="##"
+        android:id="@+id/NumPlayer2"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="60dp"
+        android:layout_below="@+id/NumPlayer1" />
+
+    <EditText
+        android:text="Player2"
+        android:id="@+id/Player2"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Player1"
+        android:layout_alignBaseline="@+id/NumPlayer2"
+        android:layout_alignBottom="@+id/NumPlayer2"
+        android:layout_toRightOf="@+id/NumPlayer2"
+        android:layout_toEndOf="@+id/NumPlayer2"/>
+
+    <TextView
+        android:text="##"
+        android:id="@+id/NumPlayer3"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="60dp"
+        android:layout_below="@+id/NumPlayer2" />
+
+    <EditText
+        android:text="Player3"
+        android:id="@+id/Player3"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Player2"
+        android:layout_alignBaseline="@+id/NumPlayer3"
+        android:layout_alignBottom="@+id/NumPlayer3"
+        android:layout_toRightOf="@+id/NumPlayer3"
+        android:layout_toEndOf="@+id/NumPlayer3"/>
+
+    <TextView
+        android:text="##"
+        android:id="@+id/NumPlayer4"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="60dp"
+        android:layout_below="@+id/NumPlayer3" />
+
+    <EditText
+        android:text="Player4"
+        android:id="@+id/Player4"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/Player3"
+        android:layout_alignBaseline="@+id/NumPlayer4"
+        android:layout_alignBottom="@+id/NumPlayer4"
+        android:layout_toRightOf="@+id/NumPlayer4"
+        android:layout_toEndOf="@+id/NumPlayer4"/>
+
+    <TextView
+        android:text="##"
+        android:id="@+id/NumPlayer5"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="60dp"
+        android:layout_below="@+id/NumPlayer4" />
+
+    <EditText
+        android:text="Player5"
+        android:id="@+id/Player5"
+        android:layout_height="38dp"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="#a09718"
+        android:layout_width="110dp"
+        android:layout_below="@+id/NumPlayer4"
+        android:layout_alignBaseline="@+id/NumPlayer5"
+        android:layout_alignBottom="@+id/NumPlayer5"
+        android:layout_toRightOf="@+id/NumPlayer5"
+        android:layout_toEndOf="@+id/NumPlayer5"/>
+
+</RelativeLayout>
